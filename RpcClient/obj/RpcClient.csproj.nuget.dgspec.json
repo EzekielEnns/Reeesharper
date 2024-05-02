@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ezekiel/RiderProjects/ReeeSharper/RpcClient/RpcClient.csproj": {}
+  },
+  "projects": {
+    "/home/ezekiel/RiderProjects/ReeeSharper/RpcClient/RpcClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ezekiel/RiderProjects/ReeeSharper/RpcClient/RpcClient.csproj",
+        "projectName": "RpcClient",
+        "projectPath": "/home/ezekiel/RiderProjects/ReeeSharper/RpcClient/RpcClient.csproj",
+        "packagesPath": "/home/ezekiel/.nuget/packages/",
+        "outputPath": "/home/ezekiel/RiderProjects/ReeeSharper/RpcClient/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ezekiel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.jetbrains.space/cksoftware/p/internal/cknuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MessagePackAnalyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.140, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/nix/store/35ym1y449wvn3snvhd8aq0c61byhwyy4-dotnet-sdk-8.0.101/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

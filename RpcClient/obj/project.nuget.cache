@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GhtcpPRCTuQFqBaDFrbGn+mhl7Bple5S+ReQc6IeaOgjfj+AiY6kGR+HQGJWDpM/MuOatuBh6Q1yikm7YmMk2w==",
+  "success": true,
+  "projectFilePath": "/home/ezekiel/RiderProjects/ReeeSharper/RpcClient/RpcClient.csproj",
+  "expectedPackageFiles": [
+    "/home/ezekiel/.nuget/packages/messagepackanalyzer/2.5.140/messagepackanalyzer.2.5.140.nupkg.sha512"
+  ],
+  "logs": []
+}
