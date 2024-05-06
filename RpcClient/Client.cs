@@ -9,5 +9,22 @@ public class Client
      
 
      */
+
+    public Client(string host, int port)
+    {
+        //connect to host
+    }
+
+    //TODO abstract Call and CallAsync a bit so that they cant change to much
+    //if one gets updatated vs the other
+    public T? Call<T>(string methodName, params object[] args)
+    {
+        return default(T);
+    }
+    public async  Task<T?> CallAsync<T>(string methodName, params object[] args)
+    {
+        return await Task.FromResult(default(T));
+    }
+    
     
 }
